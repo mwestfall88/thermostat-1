@@ -28,8 +28,6 @@ void loop() {
   //Looks for photoreading
   lightLevel = analogRead(lightPin);
 
-
-  
   lcd.setCursor(0,0);
   lcd.print(degreesF);
   lcd.setCursor(6,0);
